@@ -4,6 +4,12 @@ Extension de navigateur qui garde l'historique des épisodes regardés sur [voir
 
 Les données restent dans ton navigateur (`chrome.storage.local`) : rien n'est envoyé ailleurs, aucun compte requis.
 
+<p align="center">
+  <img src="docs/popup.png" alt="Popup de l'extension avec l'historique des animes" width="340">
+</p>
+
+*Capture réalisée avec des données d'exemple.*
+
 ## Fonctionnalités
 
 - **Historique automatique** : chaque page d'épisode (VF ou VOSTFR) visitée est enregistrée.
