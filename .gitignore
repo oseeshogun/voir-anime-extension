@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and logs
+node_modules/
+npm-debug.log*
+
+# Packaged extension builds
+*.zip
+*.crx
+*.pem
+
+# Env files
+.env
+.env.*
