@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { width: 340px; font: 14px system-ui, sans-serif; margin: 0; background: #14151a; color: #eee; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border-bottom: 1px solid #2a2c35; }
+    h1 { font-size: 15px; margin: 0; }
+    button { background: #2a2c35; color: #eee; border: 0; border-radius: 4px; padding: 4px 8px; cursor: pointer; }
+    input { width: calc(100% - 24px); margin: 8px 12px; padding: 6px; border-radius: 4px; border: 1px solid #2a2c35; background: #1d1f27; color: #eee; }
+    #list { max-height: 400px; overflow-y: auto; }
+    .anime { padding: 8px 12px; border-bottom: 1px solid #2a2c35; }
+    .del { float: right; background: transparent; color: #999; padding: 0 4px; }
+    .del:hover { color: #ff6b6b; }
+    .anime a { color: #8ab4ff; text-decoration: none; font-weight: 600; }
+    .meta { color: #999; font-size: 12px; margin-top: 2px; }
+    .empty { padding: 16px 12px; color: #999; }
+  </style>
+</head>
+<body>
+  <header><h1>Mon historique</h1><button id="clear">Vider</button></header>
+  <input id="q" placeholder="Rechercher…" />
+  <div id="list"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

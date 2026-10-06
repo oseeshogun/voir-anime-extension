@@ -1,0 +1,30 @@
+a.va-seen {
+  opacity: 0.6;
+}
+a.va-seen::after {
+  content: " ✓ vu";
+  color: #3ecf8e;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.va-nav {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2147483647;
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(20, 21, 26, 0.92);
+  border-radius: 8px;
+}
+.va-nav a {
+  color: #8ab4ff;
+  text-decoration: none;
+  font: 600 14px system-ui, sans-serif;
+}
+.va-nav a::after {
+  content: none;
+}

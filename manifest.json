@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Voir Anime - Historique",
+  "version": "1.0.0",
+  "description": "Garde l'historique des animes et épisodes que tu regardes sur voir-anime.to.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://voir-anime.to/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://voir-anime.to/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Historique",
+    "default_popup": "popup.html"
+  }
+}
